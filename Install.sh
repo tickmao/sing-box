@@ -5391,7 +5391,7 @@ function check_wireguard_config() {
 
 # 更新安装脚本
 function Update_Script() {
-    wget -O /root/singbox.sh https://raw.githubusercontent.com/smith-stack/sing-box/refs/heads/main/Install.sh
+    wget -O /root/singbox.sh https://raw.githubusercontent.com/tickmao/sing-box/refs/heads/main/Install.sh
     chmod +x /root/singbox.sh
 }
 
@@ -5656,10 +5656,8 @@ function Update_certificate() {
 # 主菜单
 function main_menu() {
 echo "╔════════════════════════════════════════════════════════════════════════╗"
-echo -e "║ ${CYAN}作者${NC}： TinrLin                                                         ║"
 echo -e "║ ${CYAN}脚本快捷方式${NC}： singbox                                                 ║"
-echo -e "║ ${CYAN}Telegram反馈群组${NC}： https://t.me/+CO3Itft343piMjFl                      ║"
-echo -e "║ ${CYAN}项目地址${NC}: https://github.com/smith-stack/sing-box      Version：1.5.0  ║"
+echo -e "║ ${CYAN}项目地址${NC}: https://github.com/tickmao/sing-box      Version：1.5.0  ║"
 echo "╠════════════════════════════════════════════════════════════════════════╣"
 echo "║ 请选择要执行的操作：                                                   ║"
 echo -e "║${CYAN} [1]${NC}  SOCKS                             ${CYAN} [2]${NC}   Direct                   ║"
@@ -5763,7 +5761,7 @@ echo "╚═══════════════════════�
             exit 0
             ;;
         0)
-            echo "感谢使用 TinrLin 安装脚本。再见！"
+            echo "感谢使用安装脚本。再见！"
             exit 0
             ;;
         *)
